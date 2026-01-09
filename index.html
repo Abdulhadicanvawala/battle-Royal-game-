@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horror Game</title>
+    <title>AI Agent Assistant</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="game">
-        <div id="story"></div>
-        <div id="choices"></div>
+    <div id="chat-container">
+        <div id="chat-header">
+            <h1>AI Agent Assistant</h1>
+            <p>Your personal digital assistant and problem solver</p>
+        </div>
+        <div id="chat-messages"></div>
+        <div id="chat-input-container">
+            <input type="text" id="user-input" placeholder="Describe your problem or ask for help..." maxlength="500">
+            <button id="send-button">Send</button>
+        </div>
     </div>
     <script src="scripts.js"></script>
 </body>
